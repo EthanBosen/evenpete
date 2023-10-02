@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Centering container */
+        .center-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh; /* Use min-height instead of height */
+            overflow: hidden; /* Hide any content that overflows the container */
+        }
+
+        /* Image style */
+        img {
+            max-width: 100%; /* Limit image width to the viewport width */
+            max-height: 100%; /* Limit image height to the viewport height */
+            cursor: pointer; /* Change cursor to a hand pointer on hover to indicate it's clickable */
+        }
+
+        /* Responsive styles */
+        @media (max-width: 768px) {
+            /* Adjust styles for screens with a maximum width of 768px (typical for phones) */
+            .center-container {
+                min-height: auto; /* Remove the fixed min-height for small screens */
+            }
+        }
+    </style>
+</head>
+    <div class="center-container">
+        <!-- Inserting the JPEG image -->
+        <a href="evenpetehome.html"> <!-- homepage needs to be changed here --> 
+         <img src="evenpetelogo.jpeg" alt="evenpete logo">
+        </a>
+    </div>
+</body>
+</html>
